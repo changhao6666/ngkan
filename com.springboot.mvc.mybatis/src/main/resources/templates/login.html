@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录页面</title>
+</head>
+<body>
+	<form th:action="@{~/users/login}" method="post">
+		<h1>登录页面</h1> <a href="http://localhost:8080/users/register.html"><h2>注册</h2></a>
+		账号:	<input type="text" name="userName"></input>
+		密码:<input type="text" name="passWord"></input>
+		<input type="text" name="uPassWord" type="checkbox">记住密码</input>
+		<input type="text" name="bibibi" type="checkbox">自动登录</input>
+		<input type="submit" value="登录"></input>
+	</form>
+</body>
+</html>
