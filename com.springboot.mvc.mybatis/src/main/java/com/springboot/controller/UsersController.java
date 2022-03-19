@@ -27,7 +27,7 @@ public class UsersController {
 		return page;
 	}
 	
-	/**    11
+	/**
 	 * 添加用户
 	 */
 	@RequestMapping("/addUser")
